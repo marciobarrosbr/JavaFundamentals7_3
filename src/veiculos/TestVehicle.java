@@ -21,8 +21,9 @@ public class TestVehicle {
 		System.out.println(vehicle2.toString()+"\n");
 		
 		Vehicle.Engine vehicle3 = new Vehicle.Engine("Fortune");
-		
+				
 		System.out.println("Vehicle number "+vehicle3.getChassisNo()+" is a "+ vehicle3.getModel()+ " model  and has an engine of "+Vehicle.Engine.getCapacity()+"cc");
+		
 		System.out.println(Vehicle.showNumVehicle());
 		
 	}
